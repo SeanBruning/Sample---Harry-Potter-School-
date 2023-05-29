@@ -1,0 +1,117 @@
+ /* banner not displaying */
+.container {
+  background-image: url(banner.jpg);
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;      
+}
+ 
+ 
+ /* Nav Bar */
+
+ .navbar{
+  background-color: black;
+  border-radius: auto;
+  height: 2px;
+  padding: 25px;
+  text-align: center;
+}
+
+
+.navbar li{
+  float: center;
+  list-style: none; 
+  margin: 20px;
+  text-align: center;
+  display: inline;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  height: 25px;
+}
+
+
+.navbar li a{
+padding: 25px ;
+text-decoration: none;
+color: white;
+}
+
+.navbar li a:hover{
+color: red
+}
+
+/*heading 2*/
+
+.header {
+padding: 80px;
+text-align: center;
+background: none;
+color: white;
+font-size: 10px;
+}
+
+body {
+  font-family: 'Helvetica', serif;
+  line-height: 1.5;
+  background-color: black;
+  font-size: 18px;
+  color: white;
+  margin: 0 auto;    
+}
+/* Typography */
+h1 {
+  font-size: 5rem;
+  letter-spacing: 2px;
+}
+
+h2, h3 {
+  text-align: center;
+  margin: 4rem 0 1.5rem 0;
+}
+
+h3 {
+  padding-bottom: 5rem;
+}
+
+#bold {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+p {
+  font-size: .85rem;
+}
+/* sections of page */
+span {
+  margin-left: -2.5rem;
+}
+
+.holder {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3rem;
+  padding: 25px 50px;
+}
+
+img, div p {
+  width: 500px;
+}
+
+#nature {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 2rem;
+}
+
+.bottom p {
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
